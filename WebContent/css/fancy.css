@@ -1,0 +1,39 @@
+.scrollbar_container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.scrollbar_track {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 90%;
+	width: 8px; background-color : transparent;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.scrollbar_handle {
+	width: 8px;
+	background-color: #B3A2C6;
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+}
+
+.scrollbar_content {
+	overflow: hidden;
+	width: 99%;
+	height: 100%;
+}
+.nodata {
+	overflow: hidden;
+	width: 99%;
+	height: 100%;
+	background-image: url(images/nodata.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
